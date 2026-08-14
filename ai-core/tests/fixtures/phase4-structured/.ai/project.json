@@ -1,0 +1,13 @@
+{
+  "active_domain_packs": ".ai/domain-packs.yaml",
+  "ai_root": "/Users/ryanthian/Documents/Codex_mac/ai-core/tests/fixtures/phase4-structured/.ai",
+  "current_runs": [],
+  "initialized_at": "",
+  "project_id": "phase4-structured",
+  "project_name": "phase4-structured",
+  "project_root": "/Users/ryanthian/Documents/Codex_mac/ai-core/tests/fixtures/phase4-structured",
+  "repository_root": "/Users/ryanthian/Documents/Codex_mac/ai-core/tests/fixtures/phase4-structured",
+  "schema_version": "2",
+  "skills_root": "../../codex-skills",
+  "status": "ACTIVE"
+}

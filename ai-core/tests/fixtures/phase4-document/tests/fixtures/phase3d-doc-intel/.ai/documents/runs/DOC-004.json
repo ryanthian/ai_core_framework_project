@@ -1,0 +1,19 @@
+{
+  "analyst_status": "COMPLETE",
+  "artifacts": {
+    "extracted": ".ai/documents/extracted/DOC-004.json",
+    "intelligence_report": ".ai/documents/reviews/DOC-004-intelligence.md",
+    "manifest": ".ai/documents/manifests/DOC-004.json",
+    "review": ".ai/documents/reviews/DOC-004-review.json"
+  },
+  "current_stage": "REVIEWED",
+  "document_id": "DOC-004",
+  "errors": [],
+  "parser_status": "PARSED",
+  "promotion_status": "NOT_STARTED",
+  "review_status": "APPROVED",
+  "status": "RUNNING",
+  "timestamps": {
+    "ingested_at": "2026-08-14T17:16:04Z"
+  }
+}

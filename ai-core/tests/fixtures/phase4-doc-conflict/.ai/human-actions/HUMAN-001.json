@@ -1,0 +1,11 @@
+{
+  "context_refs": [
+    ".ai/documents/processed/DOC-001-change-impact.json"
+  ],
+  "created": "2026-08-14T17:53:56Z",
+  "reason": "DOCUMENT_MEMORY_CONFLICT detected from source document.",
+  "required_decision": "Resolve document-memory conflict before implementation.",
+  "run_id": "CORE-RUN-001",
+  "status": "OPEN",
+  "task_id": "HUMAN-001"
+}

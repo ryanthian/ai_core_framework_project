@@ -1,0 +1,60 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "MANIFEST-DOC-001",
+      "created_at": "2026-08-14T17:53:56Z",
+      "created_by_role": "DocumentService",
+      "input_refs": [],
+      "path": ".ai/documents/manifests/DOC-001.json",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "DOCUMENT_MANIFEST",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "INTEL-DOC-001",
+      "created_at": "2026-08-14T17:53:56Z",
+      "created_by_role": "DocumentService",
+      "input_refs": [],
+      "path": ".ai/documents/reviews/DOC-001-intelligence.md",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "DOCUMENT_INTELLIGENCE",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "REVIEW-DOC-001",
+      "created_at": "2026-08-14T17:53:56Z",
+      "created_by_role": "DocumentService",
+      "input_refs": [],
+      "path": ".ai/documents/reviews/DOC-001-review.json",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "DOCUMENT_REVIEW",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "PROMOTE-DOC-001",
+      "created_at": "2026-08-14T17:53:56Z",
+      "created_by_role": "DocumentService",
+      "input_refs": [],
+      "path": ".ai/documents/processed/DOC-001-promotion.json",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "DOCUMENT_PROMOTION",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "CHANGE-DOC-001",
+      "created_at": "2026-08-14T17:53:56Z",
+      "created_by_role": "DocumentService",
+      "input_refs": [],
+      "path": ".ai/documents/processed/DOC-001-change-impact.json",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "DOCUMENT_INTELLIGENCE",
+      "version": "v1"
+    }
+  ],
+  "schema_version": "2"
+}

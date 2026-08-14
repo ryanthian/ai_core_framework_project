@@ -1,0 +1,185 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "REQ-REQ-411",
+      "created_at": "2026-08-14T17:57:30Z",
+      "created_by_role": "RequirementAnalyst",
+      "input_refs": [],
+      "path": ".ai/requirements/REQ-411-project-b.md",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "REQUIREMENT",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "AGENT-CORE-RUN-002",
+      "created_at": "2026-08-14T17:57:30Z",
+      "created_by_role": "AgentService",
+      "input_refs": [],
+      "path": ".ai/runs/RUN-REQ-411.json",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "AGENT_RUN_STATE",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "REQ-ANALYSIS-REQ-411",
+      "created_at": "2026-08-14T17:57:30Z",
+      "created_by_role": "REQUIREMENT_ANALYST",
+      "input_refs": [],
+      "path": ".ai/context/REQUIREMENT-ANALYSIS-CORE-RUN-002.md",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "REQUIREMENT",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "MEMORY-CORE-RUN-002",
+      "created_at": "2026-08-14T17:57:30Z",
+      "created_by_role": "MemoryService",
+      "input_refs": [],
+      "path": ".ai/context/MEMORY-BRIEF-CORE-RUN-002.md",
+      "related_refs": [
+        ".ai/context/REQUIREMENT-ANALYSIS-CORE-RUN-002.md"
+      ],
+      "status": "CREATED",
+      "type": "MEMORY_BRIEF",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "DOMAIN-CORE-RUN-002",
+      "created_at": "2026-08-14T17:57:30Z",
+      "created_by_role": "DomainService",
+      "input_refs": [],
+      "path": ".ai/context/DOMAIN-CONTEXT-CORE-RUN-002.md",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "DOMAIN_CONTEXT",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "BSP-CORE-RUN-002",
+      "created_at": "2026-08-14T17:57:30Z",
+      "created_by_role": "BlindSpotService",
+      "input_refs": [],
+      "path": ".ai/context/BLIND-SPOT-CORE-RUN-002.md",
+      "related_refs": [
+        ".ai/context/MEMORY-BRIEF-CORE-RUN-002.md"
+      ],
+      "status": "CREATED",
+      "type": "BLIND_SPOT_REPORT",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "SKILL-CORE-RUN-002",
+      "created_at": "2026-08-14T17:57:30Z",
+      "created_by_role": "SKILL_SELECTOR",
+      "input_refs": [],
+      "path": ".ai/context/SKILL-SELECTION-CORE-RUN-002.md",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "SKILL_SELECTION",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "PLAN-CORE-RUN-002",
+      "created_at": "2026-08-14T17:57:30Z",
+      "created_by_role": "PLANNER",
+      "input_refs": [],
+      "path": ".ai/plans/PLAN-CORE-RUN-002.md",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "PLAN",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "IMPL-CORE-RUN-002",
+      "created_at": "2026-08-14T17:57:30Z",
+      "created_by_role": "IMPLEMENTER",
+      "input_refs": [],
+      "path": ".ai/context/IMPLEMENTATION-SUMMARY-CORE-RUN-002.md",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "IMPLEMENTATION_SUMMARY",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "TEST-CORE-RUN-002",
+      "created_at": "2026-08-14T17:57:30Z",
+      "created_by_role": "TESTER",
+      "input_refs": [],
+      "path": ".ai/verification/TEST-EVIDENCE-CORE-RUN-002.md",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "TEST_EVIDENCE",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "REVIEW-CORE-RUN-002",
+      "created_at": "2026-08-14T17:57:30Z",
+      "created_by_role": "REVIEWER",
+      "input_refs": [],
+      "path": ".ai/verification/REVIEW-REPORT-CORE-RUN-002.md",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "REVIEW_REPORT",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "VERIFY-CORE-RUN-002",
+      "created_at": "2026-08-14T17:57:30Z",
+      "created_by_role": "VERIFIER",
+      "input_refs": [],
+      "path": ".ai/verification/VERIFICATION-REPORT-CORE-RUN-002.md",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "VERIFICATION_REPORT",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "KNOW-CORE-RUN-002",
+      "created_at": "2026-08-14T17:57:30Z",
+      "created_by_role": "MEMORY_CURATOR",
+      "input_refs": [],
+      "path": ".ai/context/KNOWLEDGE-CAPTURE-CORE-RUN-002.md",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "KNOWLEDGE",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "HANDOFF-CORE-RUN-002",
+      "created_at": "2026-08-14T17:57:30Z",
+      "created_by_role": "HANDOFF_WRITER",
+      "input_refs": [],
+      "path": ".ai/handoffs/HANDOFF-CORE-RUN-002.md",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "HANDOFF",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "TRACE-CORE-RUN-002",
+      "created_at": "2026-08-14T17:57:30Z",
+      "created_by_role": "AI_CORE",
+      "input_refs": [],
+      "path": ".ai/runs/CORE-RUN-002/traceability.md",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "TRACEABILITY",
+      "version": "v1"
+    },
+    {
+      "artifact_id": "SUMMARY-CORE-RUN-002",
+      "created_at": "2026-08-14T17:57:30Z",
+      "created_by_role": "AI_CORE",
+      "input_refs": [],
+      "path": ".ai/runs/CORE-RUN-002/summary.md",
+      "related_refs": [],
+      "status": "CREATED",
+      "type": "AI_CORE_SUMMARY",
+      "version": "v1"
+    }
+  ],
+  "schema_version": "2"
+}

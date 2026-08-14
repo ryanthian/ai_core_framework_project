@@ -1,0 +1,7 @@
+{"event": "RUN_CREATED", "input_ref": ".ai/requirements/REQ-413-export-order.md", "input_type": "STRUCTURED_REQUIREMENT", "profile": "STANDARD", "time": "2026-08-14T17:55:19Z"}
+{"event": "INPUT_ROUTED", "input_type": "STRUCTURED_REQUIREMENT", "time": "2026-08-14T17:55:19Z"}
+{"event": "ROLE_STARTED", "harness_state": ".ai/runs/RUN-REQ-413.json", "role": "REQUIREMENT_ANALYST", "time": "2026-08-14T17:55:19Z"}
+{"artifact": ".ai/context/MEMORY-BRIEF-CORE-RUN-001.md", "event": "MEMORY_RETRIEVED", "time": "2026-08-14T17:55:19Z"}
+{"critical_open": 1, "event": "BLIND_SPOT_COMPLETED", "high_open": 0, "time": "2026-08-14T17:55:19Z", "verdict": "BLOCKED"}
+{"event": "GATE_BLOCKED", "gate": "A0", "time": "2026-08-14T17:55:19Z"}
+{"event": "HUMAN_ACTION_CREATED", "reason": "CRITICAL Blind Spot blocks planning.", "task_id": "HUMAN-001", "time": "2026-08-14T17:55:19Z"}

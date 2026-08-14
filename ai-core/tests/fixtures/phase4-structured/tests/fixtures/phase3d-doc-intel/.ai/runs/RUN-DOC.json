@@ -1,0 +1,38 @@
+{
+  "artifact_refs": {
+    "DOCUMENT_ANALYST": ".ai/documents/reviews/DOC-001-intelligence.md",
+    "DOCUMENT_REVIEWER": ".ai/documents/reviews/DOC-001-review.json"
+  },
+  "blocked_role": "",
+  "completed_roles": [
+    "DOCUMENT_ANALYST",
+    "DOCUMENT_REVIEWER"
+  ],
+  "current_role": "REQUIREMENT_ANALYST",
+  "gate_status": {
+    "A": "NOT_STARTED",
+    "A0": "NOT_STARTED",
+    "C": "NOT_STARTED",
+    "D": "NOT_STARTED"
+  },
+  "human_approval": {},
+  "loopbacks": [],
+  "max_role_retries": 3,
+  "metadata": {
+    "duration": "",
+    "estimated_effort": "",
+    "model": "",
+    "role_attempts": {}
+  },
+  "overall_status": "RUNNING",
+  "profile": "DOCUMENT_STANDARD",
+  "project": "phase3d-doc-intel",
+  "requirement_id": "DOC",
+  "requirement_ref": ".ai/documents/reviews/DOC-001-intelligence.md",
+  "role_attempts": {
+    "DOCUMENT_ANALYST": 1,
+    "DOCUMENT_REVIEWER": 1
+  },
+  "run_id": "RUN-DOC",
+  "started": "2026-08-14T17:17:43Z"
+}

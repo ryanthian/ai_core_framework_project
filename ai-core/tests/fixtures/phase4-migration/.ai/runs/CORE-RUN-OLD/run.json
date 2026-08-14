@@ -1,0 +1,36 @@
+{
+  "artifact_refs": {
+    "PLANNER": ".ai/plans/PLAN-v1.md"
+  },
+  "blocked_reason": "",
+  "completed_stages": [],
+  "current_role": "TESTER",
+  "current_stage": "",
+  "document_id": "",
+  "domain_refs": [],
+  "errors": [],
+  "gate_status": {
+    "A": "PASSED",
+    "A0": "PASSED",
+    "C": "NOT_STARTED",
+    "D": "NOT_STARTED"
+  },
+  "human_actions": [],
+  "human_approval": {},
+  "input_ref": ".ai/requirements/REQ-409.md",
+  "input_type": "STRUCTURED_REQUIREMENT",
+  "memory_refs": [],
+  "metadata": {},
+  "profile": "STANDARD",
+  "project_id": "phase4-migration",
+  "requirement_id": "REQ-409",
+  "result": "",
+  "retry_counts": {},
+  "run_id": "CORE-RUN-OLD",
+  "schema_version": "2",
+  "skill_refs": [],
+  "skipped_stages": [],
+  "started_at": "2026-08-14T17:54:03Z",
+  "status": "RUNNING",
+  "updated_at": "2026-08-14T17:54:03Z"
+}

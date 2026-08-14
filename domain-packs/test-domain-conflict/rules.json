@@ -1,0 +1,22 @@
+{
+  "pack_id": "test-domain-conflict",
+  "version": "1.0.0",
+  "items": [
+    {
+      "id": "TDC-RULE-001",
+      "title": "Test conflicting deletion rule",
+      "type": "DATA_RULE",
+      "class": "DATA_MODEL",
+      "domain": "test-domain-conflict",
+      "scope": "REUSABLE",
+      "confidence": "UNVERIFIED",
+      "status": "ACTIVE",
+      "source_type": "reviewed test rule",
+      "source_ref": "domain-packs/test-domain-conflict/README.md#conflict",
+      "version": "1.0.0",
+      "tags": ["bulk", "delete", "history", "test"],
+      "statement": "Test-only guidance says bulk deletion should not retain history.",
+      "revalidation_trigger": "Remove after conflict behavior testing."
+    }
+  ]
+}

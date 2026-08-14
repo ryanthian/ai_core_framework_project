@@ -1,0 +1,14 @@
+{
+  "decisions": [
+    {
+      "decision": "APPROVE",
+      "item_id": "DOC-004-ITEM-001",
+      "reason": "safe automatic review scaffold; human/Codex review still authoritative",
+      "source_location": "heading:Statement Access Specification v1|lines:1-3|part:2"
+    }
+  ],
+  "document_id": "DOC-004",
+  "notes": "Review decisions are item-level and preserve conflicts/unknowns.",
+  "reviewer": "DOCUMENT_REVIEWER",
+  "verdict": "APPROVED"
+}

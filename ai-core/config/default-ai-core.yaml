@@ -1,0 +1,12 @@
+schema_version: 2
+default_profile: STANDARD
+skills_root: codex-skills
+domain_registry: domain-packs/index.md
+memory_enabled: true
+document_intelligence_enabled: true
+blind_spot_enabled: true
+agent_harness_enabled: true
+max_role_retries: 3
+require_human_for_critical: true
+artifact_retention: preserve
+validation_mode: strict

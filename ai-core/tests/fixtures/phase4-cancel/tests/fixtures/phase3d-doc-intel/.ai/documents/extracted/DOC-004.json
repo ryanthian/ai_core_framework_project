@@ -1,0 +1,38 @@
+{
+  "document_id": "DOC-004",
+  "items": [
+    {
+      "authority": "APPROVED",
+      "conflict": "",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-004-ITEM-001",
+      "notes": "explicit rule keyword",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Only account owner may view statement.",
+      "source_excerpt_hash": "207334711890698359",
+      "source_location": "heading:Statement Access Specification v1|lines:1-3|part:2",
+      "status": "APPROVED",
+      "text": "Only account owner may view statement.",
+      "type": "BUSINESS_RULE"
+    }
+  ],
+  "language": "unknown",
+  "page_count": 0,
+  "parse_status": "PARSED",
+  "parser": "markdown_parser",
+  "parser_version": "1.0",
+  "section_count": 1,
+  "sections": [
+    {
+      "location": "heading:Statement Access Specification v1|lines:1-3",
+      "metadata": {
+        "heading": "Statement Access Specification v1"
+      },
+      "text": "# Statement Access Specification v1\nOnly account owner may view statement."
+    }
+  ],
+  "source_hash": "93cfa29b63727e36fc6a1eaa27167af40789de029a007a46c15cad9050fc2f90",
+  "source_type": "MD",
+  "warnings": []
+}

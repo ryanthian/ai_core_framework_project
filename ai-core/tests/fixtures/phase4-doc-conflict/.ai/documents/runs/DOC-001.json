@@ -1,0 +1,20 @@
+{
+  "analyst_status": "COMPLETE",
+  "artifacts": {
+    "extracted": ".ai/documents/extracted/DOC-001.json",
+    "intelligence_report": ".ai/documents/reviews/DOC-001-intelligence.md",
+    "manifest": ".ai/documents/manifests/DOC-001.json",
+    "promotion": ".ai/documents/processed/DOC-001-promotion.json",
+    "review": ".ai/documents/reviews/DOC-001-review.json"
+  },
+  "current_stage": "PROMOTED",
+  "document_id": "DOC-001",
+  "errors": [],
+  "parser_status": "PARSED",
+  "promotion_status": "PARTIALLY_APPROVED",
+  "review_status": "PARTIALLY_APPROVED",
+  "status": "RUNNING",
+  "timestamps": {
+    "ingested_at": "2026-08-14T17:53:56Z"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "context_refs": [
+    ".ai/context/MEMORY-BRIEF-CORE-RUN-002.md",
+    ".ai/context/DOMAIN-CONTEXT-CORE-RUN-002.md"
+  ],
+  "created": "2026-08-14T17:53:52Z",
+  "reason": "Domain guidance conflicts with project memory or another active domain pack.",
+  "required_decision": "Resolve domain conflict or disable weak pack before planning.",
+  "run_id": "CORE-RUN-002",
+  "status": "OPEN",
+  "task_id": "HUMAN-001"
+}

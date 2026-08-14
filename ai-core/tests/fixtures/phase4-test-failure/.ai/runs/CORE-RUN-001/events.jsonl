@@ -1,0 +1,8 @@
+{"event": "RUN_CREATED", "input_ref": ".ai/requirements/REQ-405-amount-filter.md", "input_type": "STRUCTURED_REQUIREMENT", "profile": "STANDARD", "time": "2026-08-14T17:53:10Z"}
+{"event": "INPUT_ROUTED", "input_type": "STRUCTURED_REQUIREMENT", "time": "2026-08-14T17:53:10Z"}
+{"artifact": ".ai/context/MEMORY-BRIEF-CORE-RUN-001.md", "event": "MEMORY_RETRIEVED", "time": "2026-08-14T17:53:10Z"}
+{"critical_open": 0, "event": "BLIND_SPOT_COMPLETED", "high_open": 0, "time": "2026-08-14T17:53:10Z", "verdict": "READY_FOR_PLAN"}
+{"event": "GATE_PASSED", "gate": "A0", "time": "2026-08-14T17:53:10Z"}
+{"event": "RUN_STARTED", "time": "2026-08-14T17:53:10Z"}
+{"event": "GATE_PASSED", "gate": "A", "time": "2026-08-14T17:53:10Z"}
+{"event": "LOOPBACK", "from_role": "TESTER", "reason": "Test failure", "time": "2026-08-14T17:53:10Z", "to_role": "IMPLEMENTER"}

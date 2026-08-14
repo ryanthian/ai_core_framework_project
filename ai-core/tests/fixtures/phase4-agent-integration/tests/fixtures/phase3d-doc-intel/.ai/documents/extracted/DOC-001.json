@@ -1,0 +1,98 @@
+{
+  "document_id": "DOC-001",
+  "items": [
+    {
+      "authority": "AUTHORITATIVE",
+      "conflict": "",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-001-ITEM-001",
+      "notes": "explicit requirement keyword",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "The system must allow account owners to export statements as CSV.",
+      "source_excerpt_hash": "5698889813677837837",
+      "source_location": "heading:Statement Export Requirements|lines:1-11|part:2",
+      "status": "APPROVED",
+      "text": "The system must allow account owners to export statements as CSV.",
+      "type": "REQUIREMENT"
+    },
+    {
+      "authority": "AUTHORITATIVE",
+      "conflict": "",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-001-ITEM-002",
+      "notes": "explicit rule keyword",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Only the account owner may view statement exports.",
+      "source_excerpt_hash": "123736584404595340",
+      "source_location": "heading:Statement Export Requirements|lines:1-11|part:3",
+      "status": "APPROVED",
+      "text": "Only the account owner may view statement exports.",
+      "type": "BUSINESS_RULE"
+    },
+    {
+      "authority": "AUTHORITATIVE",
+      "conflict": "",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-001-ITEM-003",
+      "notes": "explicit requirement keyword",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Acceptance: export generation must finish within 30 seconds for up to 1,000 transactions.",
+      "source_excerpt_hash": "3722918761146026951",
+      "source_location": "heading:Statement Export Requirements|lines:1-11|part:4",
+      "status": "APPROVED",
+      "text": "Acceptance: export generation must finish within 30 seconds for up to 1,000 transactions.",
+      "type": "REQUIREMENT"
+    },
+    {
+      "authority": "AUTHORITATIVE",
+      "conflict": "",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-001-ITEM-004",
+      "notes": "explicit uncertainty",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Unknown: Should delegated finance officers be allowed to export statements?",
+      "source_excerpt_hash": "149015307133964156",
+      "source_location": "heading:Statement Export Requirements|lines:1-11|part:5",
+      "status": "APPROVED",
+      "text": "Unknown: Should delegated finance officers be allowed to export statements?",
+      "type": "UNKNOWN"
+    },
+    {
+      "authority": "AUTHORITATIVE",
+      "conflict": "",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-001-ITEM-005",
+      "notes": "explicit rule keyword",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Business rule: statement exports cannot include transactions from another account.",
+      "source_excerpt_hash": "6322057460272687441",
+      "source_location": "heading:Statement Export Requirements|lines:1-11|part:6",
+      "status": "APPROVED",
+      "text": "Business rule: statement exports cannot include transactions from another account.",
+      "type": "BUSINESS_RULE"
+    }
+  ],
+  "language": "unknown",
+  "page_count": 0,
+  "parse_status": "PARSED",
+  "parser": "markdown_parser",
+  "parser_version": "1.0",
+  "section_count": 1,
+  "sections": [
+    {
+      "location": "heading:Statement Export Requirements|lines:1-11",
+      "metadata": {
+        "heading": "Statement Export Requirements"
+      },
+      "text": "# Statement Export Requirements\nThe system must allow account owners to export statements as CSV.\nOnly the account owner may view statement exports.\nAcceptance: export generation must finish within 30 seconds for up to 1,000 transactions.\nUnknown: Should delegated finance officers be allowed to export statements?\nBusiness rule: statement exports cannot include transactions from another account."
+    }
+  ],
+  "source_hash": "3c71a22710a4536d0006067bc0fc40ad2ce8526f32e5b7e1de09a53f58f02212",
+  "source_type": "MD",
+  "warnings": []
+}

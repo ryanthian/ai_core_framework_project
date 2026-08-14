@@ -1,0 +1,27 @@
+{
+  "blocked": [
+    {
+      "item_id": "DOC-001-ITEM-004",
+      "reason": "no promotion target for type UNKNOWN"
+    }
+  ],
+  "document_id": "DOC-001",
+  "promoted": [
+    {
+      "item_id": "DOC-001-ITEM-001",
+      "target": ".ai/requirements/REQ-DOC-003-the-system-must-allow-account-owners-to-export-statements-as.md"
+    },
+    {
+      "item_id": "DOC-001-ITEM-002",
+      "target": ".ai/knowledge/KNOW-DOC-001-only-the-account-owner-may-view-statement-exports.md"
+    },
+    {
+      "item_id": "DOC-001-ITEM-003",
+      "target": ".ai/requirements/REQ-DOC-004-acceptance-export-generation-must-finish-within-30-seconds-f.md"
+    },
+    {
+      "item_id": "DOC-001-ITEM-005",
+      "target": ".ai/knowledge/KNOW-DOC-002-business-rule-statement-exports-cannot-include-transactions-.md"
+    }
+  ]
+}

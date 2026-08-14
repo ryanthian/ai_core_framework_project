@@ -1,0 +1,11 @@
+{
+  "context_refs": [
+    ".ai/context/BLIND-SPOT-CORE-RUN-001.md"
+  ],
+  "created": "2026-08-14T17:55:19Z",
+  "reason": "CRITICAL Blind Spot blocks planning.",
+  "required_decision": "Clarify or approve risk explicitly; AI-Core will not simulate approval.",
+  "run_id": "CORE-RUN-001",
+  "status": "OPEN",
+  "task_id": "HUMAN-001"
+}

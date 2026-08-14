@@ -1,0 +1,7 @@
+active:
+  - pack: billing
+    version: 1.0.0
+    activated_at: 2026-08-14
+  - pack: access-control
+    version: 1.0.0
+    activated_at: 2026-08-14

@@ -1,0 +1,17 @@
+{
+  "analyst_status": "NOT_STARTED",
+  "artifacts": {
+    "manifest": ".ai/documents/manifests/DOC-007.json"
+  },
+  "cancel_reason": "Phase 3D cancellation test",
+  "current_stage": "INGESTED",
+  "document_id": "DOC-007",
+  "errors": [],
+  "parser_status": "NOT_STARTED",
+  "promotion_status": "NOT_STARTED",
+  "review_status": "NOT_STARTED",
+  "status": "CANCELLED",
+  "timestamps": {
+    "ingested_at": "2026-08-14T17:17:18Z"
+  }
+}

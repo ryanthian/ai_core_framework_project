@@ -1,0 +1,78 @@
+{
+  "artifact_refs": {
+    "AGENT-CORE-RUN-002": ".ai/runs/RUN-REQ-410.json",
+    "DOMAIN-CORE-RUN-002": ".ai/context/DOMAIN-CONTEXT-CORE-RUN-002.md",
+    "HANDOFF-CORE-RUN-002": ".ai/handoffs/HANDOFF-CORE-RUN-002.md",
+    "IMPL-CORE-RUN-002": ".ai/context/IMPLEMENTATION-SUMMARY-CORE-RUN-002.md",
+    "KNOW-CORE-RUN-002": ".ai/context/KNOWLEDGE-CAPTURE-CORE-RUN-002.md",
+    "PLAN-CORE-RUN-002": ".ai/plans/PLAN-CORE-RUN-002.md",
+    "REQ-ANALYSIS-REQ-410": ".ai/context/REQUIREMENT-ANALYSIS-CORE-RUN-002.md",
+    "REQ-REQ-410": ".ai/requirements/REQ-410-project-a.md",
+    "REVIEW-CORE-RUN-002": ".ai/verification/REVIEW-REPORT-CORE-RUN-002.md",
+    "SKILL-CORE-RUN-002": ".ai/context/SKILL-SELECTION-CORE-RUN-002.md",
+    "TEST-CORE-RUN-002": ".ai/verification/TEST-EVIDENCE-CORE-RUN-002.md",
+    "VERIFY-CORE-RUN-002": ".ai/verification/VERIFICATION-REPORT-CORE-RUN-002.md"
+  },
+  "blocked_reason": "",
+  "completed_stages": [
+    "REQUIREMENT_ANALYSIS",
+    "MEMORY_RETRIEVAL",
+    "DOMAIN_RETRIEVAL",
+    "BLIND_SPOT",
+    "GATE_A0",
+    "SKILL_SELECTION",
+    "PLANNING",
+    "GATE_A",
+    "IMPLEMENTATION",
+    "TESTING",
+    "REVIEW",
+    "VERIFICATION",
+    "GATE_C",
+    "MEMORY_CURATION",
+    "HANDOFF",
+    "GATE_D",
+    "COMPLETE"
+  ],
+  "current_role": "",
+  "current_stage": "COMPLETE",
+  "document_id": "",
+  "domain_refs": [],
+  "errors": [],
+  "gate_status": {
+    "A": "PASSED",
+    "A0": "PASSED",
+    "C": "PASSED",
+    "D": "PASSED"
+  },
+  "human_actions": [],
+  "human_approval": {},
+  "input_ref": ".ai/requirements/REQ-410-project-a.md",
+  "input_type": "STRUCTURED_REQUIREMENT",
+  "memory_refs": [
+    ".ai/context/MEMORY-BRIEF-CORE-RUN-002.md"
+  ],
+  "metadata": {
+    "duration": "",
+    "estimated_effort": "",
+    "model": "",
+    "role_attempts": {}
+  },
+  "profile": "STANDARD",
+  "project_id": "phase4-project-a",
+  "requirement_id": "REQ-410",
+  "result": "PASS",
+  "retry_counts": {},
+  "run_id": "CORE-RUN-002",
+  "schema_version": "2",
+  "skill_refs": [
+    "codex-engineering-workflow",
+    "codex-skill-selector"
+  ],
+  "skipped_stages": [
+    "INGEST",
+    "DOCUMENT_ANALYSIS"
+  ],
+  "started_at": "2026-08-14T17:57:29Z",
+  "status": "COMPLETED",
+  "updated_at": "2026-08-14T17:57:29Z"
+}

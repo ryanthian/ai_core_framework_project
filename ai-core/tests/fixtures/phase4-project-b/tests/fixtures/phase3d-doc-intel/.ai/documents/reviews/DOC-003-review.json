@@ -1,0 +1,32 @@
+{
+  "decisions": [
+    {
+      "decision": "NEEDS_CLARIFICATION",
+      "item_id": "DOC-003-ITEM-001",
+      "reason": "safe automatic review scaffold; human/Codex review still authoritative",
+      "source_location": "heading:Meeting Notes|lines:1-9|part:2"
+    },
+    {
+      "decision": "APPROVE",
+      "item_id": "DOC-003-ITEM-002",
+      "reason": "safe automatic review scaffold; human/Codex review still authoritative",
+      "source_location": "heading:Meeting Notes|lines:1-9|part:3"
+    },
+    {
+      "decision": "APPROVE",
+      "item_id": "DOC-003-ITEM-003",
+      "reason": "safe automatic review scaffold; human/Codex review still authoritative",
+      "source_location": "heading:Meeting Notes|lines:1-9|part:4"
+    },
+    {
+      "decision": "APPROVE",
+      "item_id": "DOC-003-ITEM-004",
+      "reason": "safe automatic review scaffold; human/Codex review still authoritative",
+      "source_location": "heading:Meeting Notes|lines:1-9|part:5"
+    }
+  ],
+  "document_id": "DOC-003",
+  "notes": "Review decisions are item-level and preserve conflicts/unknowns.",
+  "reviewer": "DOCUMENT_REVIEWER",
+  "verdict": "PARTIALLY_APPROVED"
+}

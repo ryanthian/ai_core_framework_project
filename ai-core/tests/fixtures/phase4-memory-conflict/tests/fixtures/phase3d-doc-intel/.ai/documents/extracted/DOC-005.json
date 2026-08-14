@@ -1,0 +1,53 @@
+{
+  "document_id": "DOC-005",
+  "items": [
+    {
+      "authority": "AUTHORITATIVE",
+      "conflict": "KNOW-701",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-005-ITEM-001",
+      "notes": "explicit rule keyword",
+      "review_decision": "CONFLICT",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Only account owner and delegated finance officer may view statement.",
+      "source_excerpt_hash": "4714473352124969685",
+      "source_location": "heading:Statement Access Specification v2|lines:1-5|part:2",
+      "status": "CONFLICT",
+      "text": "Only account owner and delegated finance officer may view statement.",
+      "type": "BUSINESS_RULE"
+    },
+    {
+      "authority": "AUTHORITATIVE",
+      "conflict": "",
+      "extraction_confidence": "LOW",
+      "item_id": "DOC-005-ITEM-002",
+      "notes": "general extracted statement",
+      "review_decision": "NEEDS_CLARIFICATION",
+      "sensitive_content_warning": false,
+      "source_excerpt": "This specification supersedes Statement Access Specification v1.",
+      "source_excerpt_hash": "1787979516127706040",
+      "source_location": "heading:Statement Access Specification v2|lines:1-5|part:3",
+      "status": "NEEDS_CLARIFICATION",
+      "text": "This specification supersedes Statement Access Specification v1.",
+      "type": "PROJECT_FACT"
+    }
+  ],
+  "language": "unknown",
+  "page_count": 0,
+  "parse_status": "PARSED",
+  "parser": "markdown_parser",
+  "parser_version": "1.0",
+  "section_count": 1,
+  "sections": [
+    {
+      "location": "heading:Statement Access Specification v2|lines:1-5",
+      "metadata": {
+        "heading": "Statement Access Specification v2"
+      },
+      "text": "# Statement Access Specification v2\nOnly account owner and delegated finance officer may view statement.\nThis specification supersedes Statement Access Specification v1."
+    }
+  ],
+  "source_hash": "4089b82995810fc4da6c63374cfb547356e3b971a22bee903320cbfd1779fd1b",
+  "source_type": "MD",
+  "warnings": []
+}

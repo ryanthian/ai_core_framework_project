@@ -1,0 +1,19 @@
+{
+  "run_id": "",
+  "requirement_id": "",
+  "project": "",
+  "profile": "STANDARD",
+  "started": "",
+  "current_role": "REQUIREMENT_ANALYST",
+  "completed_roles": [],
+  "blocked_role": "",
+  "gate_status": {},
+  "artifact_refs": {},
+  "overall_status": "NOT_STARTED",
+  "role_attempts": {},
+  "max_role_retries": 3,
+  "loopbacks": [],
+  "human_approval": {},
+  "metadata": {}
+}
+

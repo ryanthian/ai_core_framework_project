@@ -1,0 +1,7 @@
+{"event": "RUN_STARTED", "profile": "DOCUMENT_STANDARD", "role": "DOCUMENT_ANALYST", "time": "2026-08-14T17:17:43Z"}
+{"event": "RUN_RESUMED", "role": "DOCUMENT_ANALYST", "time": "2026-08-14T17:17:50Z"}
+{"artifact": ".ai/documents/reviews/DOC-001-intelligence.md", "event": "ROLE_COMPLETED", "role": "DOCUMENT_ANALYST", "time": "2026-08-14T17:17:50Z"}
+{"event": "ROLE_STARTED", "role": "DOCUMENT_REVIEWER", "time": "2026-08-14T17:17:50Z"}
+{"event": "RUN_RESUMED", "role": "DOCUMENT_REVIEWER", "time": "2026-08-14T17:17:50Z"}
+{"artifact": ".ai/documents/reviews/DOC-001-review.json", "event": "ROLE_COMPLETED", "role": "DOCUMENT_REVIEWER", "time": "2026-08-14T17:17:50Z"}
+{"event": "ROLE_STARTED", "role": "REQUIREMENT_ANALYST", "time": "2026-08-14T17:17:50Z"}

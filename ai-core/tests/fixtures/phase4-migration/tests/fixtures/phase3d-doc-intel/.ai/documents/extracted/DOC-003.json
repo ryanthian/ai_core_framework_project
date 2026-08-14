@@ -1,0 +1,83 @@
+{
+  "document_id": "DOC-003",
+  "items": [
+    {
+      "authority": "WORKING_DRAFT",
+      "conflict": "",
+      "extraction_confidence": "LOW",
+      "item_id": "DOC-003-ITEM-001",
+      "notes": "general extracted statement",
+      "review_decision": "NEEDS_CLARIFICATION",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Proposed feature: add CSV export for account statements.",
+      "source_excerpt_hash": "5399695643605957819",
+      "source_location": "heading:Meeting Notes|lines:1-9|part:2",
+      "status": "NEEDS_CLARIFICATION",
+      "text": "Proposed feature: add CSV export for account statements.",
+      "type": "PROJECT_FACT"
+    },
+    {
+      "authority": "WORKING_DRAFT",
+      "conflict": "",
+      "extraction_confidence": "MEDIUM",
+      "item_id": "DOC-003-ITEM-002",
+      "notes": "meeting decision wording",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Agreed decision: keep CSV columns in business-defined fixed order.",
+      "source_excerpt_hash": "7256957266324992432",
+      "source_location": "heading:Meeting Notes|lines:1-9|part:3",
+      "status": "APPROVED",
+      "text": "Agreed decision: keep CSV columns in business-defined fixed order.",
+      "type": "DECISION_CANDIDATE"
+    },
+    {
+      "authority": "WORKING_DRAFT",
+      "conflict": "",
+      "extraction_confidence": "MEDIUM",
+      "item_id": "DOC-003-ITEM-003",
+      "notes": "action/owner wording",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Action: Jordan will confirm delegated finance officer permissions. Due: 2026-09-01.",
+      "source_excerpt_hash": "4315098858976238053",
+      "source_location": "heading:Meeting Notes|lines:1-9|part:4",
+      "status": "APPROVED",
+      "text": "Action: Jordan will confirm delegated finance officer permissions. Due: 2026-09-01.",
+      "type": "ACTION_ITEM"
+    },
+    {
+      "authority": "WORKING_DRAFT",
+      "conflict": "",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-003-ITEM-004",
+      "notes": "explicit uncertainty",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Unresolved question: Should support agents ever view customer statements?",
+      "source_excerpt_hash": "5924519063301820370",
+      "source_location": "heading:Meeting Notes|lines:1-9|part:5",
+      "status": "APPROVED",
+      "text": "Unresolved question: Should support agents ever view customer statements?",
+      "type": "UNKNOWN"
+    }
+  ],
+  "language": "unknown",
+  "page_count": 0,
+  "parse_status": "PARSED",
+  "parser": "markdown_parser",
+  "parser_version": "1.0",
+  "section_count": 1,
+  "sections": [
+    {
+      "location": "heading:Meeting Notes|lines:1-9",
+      "metadata": {
+        "heading": "Meeting Notes"
+      },
+      "text": "# Meeting Notes\nProposed feature: add CSV export for account statements.\nAgreed decision: keep CSV columns in business-defined fixed order.\nAction: Jordan will confirm delegated finance officer permissions. Due: 2026-09-01.\nUnresolved question: Should support agents ever view customer statements?"
+    }
+  ],
+  "source_hash": "65315a784a518f6e0fd985d7bdd65d3bdb92a83144a8d89f27ce10a5cc2aa2a5",
+  "source_type": "MD",
+  "warnings": []
+}

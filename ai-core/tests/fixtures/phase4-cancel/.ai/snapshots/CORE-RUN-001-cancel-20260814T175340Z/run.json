@@ -1,0 +1,62 @@
+{
+  "artifact_refs": {
+    "DOMAIN-CORE-RUN-001": ".ai/context/DOMAIN-CONTEXT-CORE-RUN-001.md",
+    "PLAN-CORE-RUN-001": ".ai/plans/PLAN-CORE-RUN-001.md",
+    "REQ-ANALYSIS-REQ-408": ".ai/context/REQUIREMENT-ANALYSIS-CORE-RUN-001.md",
+    "REQ-REQ-408": ".ai/requirements/REQ-408-cancel.md",
+    "SKILL-CORE-RUN-001": ".ai/context/SKILL-SELECTION-CORE-RUN-001.md"
+  },
+  "blocked_reason": "",
+  "completed_stages": [
+    "REQUIREMENT_ANALYSIS",
+    "MEMORY_RETRIEVAL",
+    "DOMAIN_RETRIEVAL",
+    "BLIND_SPOT",
+    "GATE_A0",
+    "SKILL_SELECTION",
+    "PLANNING",
+    "GATE_A"
+  ],
+  "current_role": "",
+  "current_stage": "GATE_A",
+  "document_id": "",
+  "domain_refs": [],
+  "errors": [],
+  "gate_status": {
+    "A": "PASSED",
+    "A0": "PASSED",
+    "C": "NOT_STARTED",
+    "D": "NOT_STARTED"
+  },
+  "human_actions": [],
+  "human_approval": {},
+  "input_ref": ".ai/requirements/REQ-408-cancel.md",
+  "input_type": "STRUCTURED_REQUIREMENT",
+  "memory_refs": [
+    ".ai/context/MEMORY-BRIEF-CORE-RUN-001.md"
+  ],
+  "metadata": {
+    "duration": "",
+    "estimated_effort": "",
+    "model": "",
+    "role_attempts": {}
+  },
+  "profile": "STANDARD",
+  "project_id": "ai-project-template",
+  "requirement_id": "REQ-408",
+  "result": "",
+  "retry_counts": {},
+  "run_id": "CORE-RUN-001",
+  "schema_version": "2",
+  "skill_refs": [
+    "codex-engineering-workflow",
+    "codex-skill-selector"
+  ],
+  "skipped_stages": [
+    "INGEST",
+    "DOCUMENT_ANALYSIS"
+  ],
+  "started_at": "2026-08-14T17:53:32Z",
+  "status": "READY",
+  "updated_at": "2026-08-14T17:53:33Z"
+}

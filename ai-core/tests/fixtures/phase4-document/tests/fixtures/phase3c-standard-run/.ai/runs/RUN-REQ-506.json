@@ -1,0 +1,34 @@
+{
+  "artifact_refs": {},
+  "blocked_role": "",
+  "cancellation": {
+    "last_completed_role": "",
+    "reason": "Phase 3C cancellation test",
+    "time": "2026-08-14T16:55:36Z"
+  },
+  "completed_roles": [],
+  "current_role": "REQUIREMENT_ANALYST",
+  "gate_status": {
+    "A": "NOT_STARTED",
+    "A0": "NOT_STARTED",
+    "C": "NOT_STARTED",
+    "D": "NOT_STARTED"
+  },
+  "human_approval": {},
+  "loopbacks": [],
+  "max_role_retries": 3,
+  "metadata": {
+    "duration": "",
+    "estimated_effort": "",
+    "model": "",
+    "role_attempts": {}
+  },
+  "overall_status": "CANCELLED",
+  "profile": "LEAN",
+  "project": "phase3c-standard-run",
+  "requirement_id": "REQ-506",
+  "requirement_ref": ".ai/requirements/REQ-506-cancel-demo.md",
+  "role_attempts": {},
+  "run_id": "RUN-REQ-506",
+  "started": "2026-08-14T16:55:29Z"
+}

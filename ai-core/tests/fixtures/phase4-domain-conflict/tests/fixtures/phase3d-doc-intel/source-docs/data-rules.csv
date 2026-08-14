@@ -1,0 +1,3 @@
+field,rule
+owner_id,Must match the authenticated account owner.
+export_format,Only CSV is supported in the disposable fixture.

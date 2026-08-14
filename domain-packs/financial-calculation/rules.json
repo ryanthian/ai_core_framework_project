@@ -1,0 +1,22 @@
+{
+  "pack_id": "financial-calculation",
+  "version": "1.0.0",
+  "items": [
+    {
+      "id": "FIN-RULE-001",
+      "title": "Financial calculations need explicit precision and rounding",
+      "type": "VALIDATION_CHECK",
+      "class": "CONSTRAINT",
+      "domain": "financial-calculation",
+      "scope": "REUSABLE",
+      "confidence": "SUPPORTED",
+      "status": "ACTIVE",
+      "source_type": "reviewed expert rule",
+      "source_ref": "domain-packs/financial-calculation/README.md#precision",
+      "version": "1.0.0",
+      "tags": ["rounding", "precision", "currency", "negative-values", "profit"],
+      "statement": "Financial calculations should define calculation ordering, decimal precision, rounding point, negative-value handling, reconciliation, and test expectations.",
+      "revalidation_trigger": "Currency, tax, fee, or accounting policy changes."
+    }
+  ]
+}

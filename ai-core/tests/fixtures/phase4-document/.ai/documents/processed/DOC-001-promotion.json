@@ -1,0 +1,23 @@
+{
+  "blocked": [
+    {
+      "item_id": "DOC-001-ITEM-003",
+      "reason": "no promotion target for type ACCEPTANCE_CRITERION"
+    },
+    {
+      "item_id": "DOC-001-ITEM-004",
+      "reason": "no promotion target for type UNKNOWN"
+    }
+  ],
+  "document_id": "DOC-001",
+  "promoted": [
+    {
+      "item_id": "DOC-001-ITEM-001",
+      "target": ".ai/requirements/REQ-DOC-001-the-system-must-add-account-export.md"
+    },
+    {
+      "item_id": "DOC-001-ITEM-002",
+      "target": ".ai/knowledge/KNOW-DOC-001-only-approved-users-may-export-their-own-accounts.md"
+    }
+  ]
+}

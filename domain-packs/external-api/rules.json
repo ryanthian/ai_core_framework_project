@@ -1,0 +1,38 @@
+{
+  "pack_id": "external-api",
+  "version": "1.0.0",
+  "items": [
+    {
+      "id": "API-RULE-001",
+      "title": "External API calls need timeout retry and idempotency policy",
+      "type": "API_RULE",
+      "class": "INTEGRATION",
+      "domain": "external-api",
+      "scope": "REUSABLE",
+      "confidence": "SUPPORTED",
+      "status": "ACTIVE",
+      "source_type": "reviewed expert rule",
+      "source_ref": "domain-packs/external-api/README.md#failure-semantics",
+      "version": "1.0.0",
+      "tags": ["timeout", "retry", "idempotency", "api", "external"],
+      "statement": "External API integrations should define timeout, retry, idempotency, authentication, rate-limit, partial-failure, and reconciliation behavior.",
+      "revalidation_trigger": "Provider API version, SLA, or retry semantics change."
+    },
+    {
+      "id": "API-TEST-001",
+      "title": "External API test pattern",
+      "type": "TEST_PATTERN",
+      "class": "REUSABLE_PATTERN",
+      "domain": "external-api",
+      "scope": "REUSABLE",
+      "confidence": "SUPPORTED",
+      "status": "ACTIVE",
+      "source_type": "reviewed expert rule",
+      "source_ref": "domain-packs/external-api/README.md#tests",
+      "version": "1.0.0",
+      "tags": ["test", "timeout", "retry", "rate-limit"],
+      "statement": "Test external API integrations with success, authentication failure, timeout, retry, duplicate request, rate-limit, and reconciliation cases.",
+      "revalidation_trigger": "Integration contract or failure semantics change."
+    }
+  ]
+}

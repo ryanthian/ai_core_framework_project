@@ -1,0 +1,59 @@
+{
+  "artifact_refs": {
+    "INTEL-DOC-001": ".ai/documents/reviews/DOC-001-intelligence.md",
+    "MANIFEST-DOC-001": ".ai/documents/manifests/DOC-001.json",
+    "PROMOTE-DOC-001": ".ai/documents/processed/DOC-001-promotion.json",
+    "REVIEW-DOC-001": ".ai/documents/reviews/DOC-001-review.json"
+  },
+  "blocked_reason": "DOCUMENT_MEMORY_CONFLICT detected from source document.",
+  "completed_stages": [],
+  "current_role": "",
+  "current_stage": "INGEST",
+  "document_id": "DOC-001",
+  "domain_refs": [],
+  "errors": [
+    {
+      "code": "HUMAN_APPROVAL_REQUIRED",
+      "message": "DOCUMENT_MEMORY_CONFLICT detected from source document.",
+      "recommended_action": "Resolve document-memory conflict before implementation.",
+      "recoverable": true,
+      "severity": "CRITICAL",
+      "stage": "INGEST"
+    }
+  ],
+  "gate_status": {
+    "A": "NOT_STARTED",
+    "A0": "NOT_STARTED",
+    "C": "NOT_STARTED",
+    "D": "NOT_STARTED"
+  },
+  "human_actions": [
+    ".ai/human-actions/HUMAN-001.json"
+  ],
+  "human_approval": {
+    "reason": "DOCUMENT_MEMORY_CONFLICT detected from source document.",
+    "required": true,
+    "task_id": "HUMAN-001"
+  },
+  "input_ref": "source-docs/statement-access-v2.md",
+  "input_type": "SOURCE_DOCUMENT",
+  "memory_refs": [],
+  "metadata": {
+    "duration": "",
+    "estimated_effort": "",
+    "model": "",
+    "role_attempts": {}
+  },
+  "profile": "DEEP",
+  "project_id": "ai-project-template",
+  "requirement_id": "",
+  "result": "",
+  "retry_counts": {},
+  "run_id": "CORE-RUN-001",
+  "schema_version": "2",
+  "skill_refs": [],
+  "skipped_stages": [],
+  "started_at": "2026-08-14T17:53:55Z",
+  "status": "AWAITING_HUMAN",
+  "updated_at": "2026-08-14T17:53:56Z"
+}

@@ -1,0 +1,29 @@
+{
+  "artifact_refs": {},
+  "blocked_role": "",
+  "completed_roles": [],
+  "current_role": "REQUIREMENT_ANALYST",
+  "gate_status": {
+    "A": "NOT_STARTED",
+    "A0": "NOT_STARTED",
+    "C": "NOT_STARTED",
+    "D": "NOT_STARTED"
+  },
+  "human_approval": {},
+  "loopbacks": [],
+  "max_role_retries": 3,
+  "metadata": {
+    "duration": "",
+    "estimated_effort": "",
+    "model": "",
+    "role_attempts": {}
+  },
+  "overall_status": "RUNNING",
+  "profile": "STANDARD",
+  "project": "phase4-project-a",
+  "requirement_id": "REQ-410",
+  "requirement_ref": ".ai/requirements/REQ-410-project-a.md",
+  "role_attempts": {},
+  "run_id": "RUN-REQ-410",
+  "started": "2026-08-14T17:57:29Z"
+}

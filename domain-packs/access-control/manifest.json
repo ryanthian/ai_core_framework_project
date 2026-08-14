@@ -1,0 +1,19 @@
+{
+  "id": "access-control",
+  "name": "Access Control",
+  "version": "1.0.0",
+  "status": "ACTIVE",
+  "description": "Reusable access-control guidance for identity, ownership, role boundaries, tenant boundaries, privilege escalation, and audit.",
+  "scope": "reusable",
+  "maintainer": "AI Project Workflow",
+  "created": "2026-08-15",
+  "updated": "2026-08-15",
+  "source_authority": "reviewed expert rule",
+  "license": "internal-workflow",
+  "dependencies": [],
+  "compatible_schema_version": "1.0",
+  "tags": ["identity", "authorization", "ownership", "tenant-boundary", "audit"],
+  "activation_conditions": ["Requirement exposes user-specific, tenant-specific, private, or role-gated records."],
+  "known_limitations": ["Generic guidance; project policy and authoritative requirements take precedence."],
+  "conflict_policy": "Surface DOMAIN_PROJECT_CONFLICT; do not override authoritative project requirements."
+}

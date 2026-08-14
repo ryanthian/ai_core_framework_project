@@ -1,0 +1,18 @@
+{
+  "artifact_refs": {
+    "PLANNER": ".ai/plans/PLAN-v1.md"
+  },
+  "current_role": "TESTER",
+  "gate_status": {
+    "A0": "PASSED",
+    "A": "PASSED",
+    "C": "NOT_STARTED",
+    "D": "NOT_STARTED"
+  },
+  "overall_status": "RUNNING",
+  "profile": "STANDARD",
+  "project": "phase4-migration",
+  "requirement_id": "REQ-409",
+  "requirement_ref": ".ai/requirements/REQ-409.md",
+  "run_id": "CORE-RUN-OLD"
+}

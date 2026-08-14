@@ -1,0 +1,29 @@
+{
+  "artifact_refs": {},
+  "blocked_role": "",
+  "completed_roles": [],
+  "current_role": "REQUIREMENT_ANALYST",
+  "gate_status": {
+    "A": "NOT_STARTED",
+    "A0": "NOT_STARTED",
+    "C": "NOT_STARTED",
+    "D": "NOT_STARTED"
+  },
+  "human_approval": {},
+  "loopbacks": [],
+  "max_role_retries": 3,
+  "metadata": {
+    "duration": "",
+    "estimated_effort": "",
+    "model": "",
+    "role_attempts": {}
+  },
+  "overall_status": "RUNNING",
+  "profile": "LEAN",
+  "project": "phase3c-isolation-a",
+  "requirement_id": "REQ-601",
+  "requirement_ref": ".ai/requirements/REQ-601-isolation-a.md",
+  "role_attempts": {},
+  "run_id": "RUN-REQ-601",
+  "started": "2026-08-14T16:56:43Z"
+}

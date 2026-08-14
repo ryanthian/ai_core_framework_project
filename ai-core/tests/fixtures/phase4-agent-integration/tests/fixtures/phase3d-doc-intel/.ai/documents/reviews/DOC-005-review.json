@@ -1,0 +1,20 @@
+{
+  "decisions": [
+    {
+      "decision": "CONFLICT",
+      "item_id": "DOC-005-ITEM-001",
+      "reason": "safe automatic review scaffold; human/Codex review still authoritative",
+      "source_location": "heading:Statement Access Specification v2|lines:1-5|part:2"
+    },
+    {
+      "decision": "NEEDS_CLARIFICATION",
+      "item_id": "DOC-005-ITEM-002",
+      "reason": "safe automatic review scaffold; human/Codex review still authoritative",
+      "source_location": "heading:Statement Access Specification v2|lines:1-5|part:3"
+    }
+  ],
+  "document_id": "DOC-005",
+  "notes": "Review decisions are item-level and preserve conflicts/unknowns.",
+  "reviewer": "DOCUMENT_REVIEWER",
+  "verdict": "PARTIALLY_APPROVED"
+}

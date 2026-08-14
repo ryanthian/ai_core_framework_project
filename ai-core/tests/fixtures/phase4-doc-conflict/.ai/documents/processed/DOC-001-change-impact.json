@@ -1,0 +1,19 @@
+{
+  "affected_apis_data": [],
+  "affected_knowledge": [
+    "KNOW-501"
+  ],
+  "affected_plans": [],
+  "affected_requirements": [],
+  "conflicts": [
+    {
+      "item_id": "DOC-001-ITEM-001",
+      "knowledge_id": "KNOW-501"
+    }
+  ],
+  "document_id": "DOC-001",
+  "new_source": ".ai/documents/extracted/DOC-001.json",
+  "recommended_action": "Review stronger/newer source, then deprecate/supersede affected knowledge if approved.",
+  "revalidation_needed": true,
+  "type": "DOCUMENT_CHANGE_IMPACT"
+}

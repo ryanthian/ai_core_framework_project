@@ -1,0 +1,128 @@
+{
+  "document_id": "DOC-002",
+  "items": [
+    {
+      "authority": "APPROVED",
+      "conflict": "",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-002-ITEM-001",
+      "notes": "explicit endpoint",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "POST /orders",
+      "source_excerpt_hash": "7924376430447010342",
+      "source_location": "heading:Orders API|lines:1-15|part:2",
+      "status": "APPROVED",
+      "text": "POST /orders",
+      "type": "API_CONTRACT"
+    },
+    {
+      "authority": "APPROVED",
+      "conflict": "",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-002-ITEM-002",
+      "notes": "explicit requirement keyword",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Authentication: Bearer token required.",
+      "source_excerpt_hash": "7555637886517727447",
+      "source_location": "heading:Orders API|lines:1-15|part:3",
+      "status": "APPROVED",
+      "text": "Authentication: Bearer token required.",
+      "type": "REQUIREMENT"
+    },
+    {
+      "authority": "APPROVED",
+      "conflict": "",
+      "extraction_confidence": "LOW",
+      "item_id": "DOC-002-ITEM-003",
+      "notes": "general extracted statement",
+      "review_decision": "NEEDS_CLARIFICATION",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Request fields: customer_id, sku, quantity.",
+      "source_excerpt_hash": "4829790246087630988",
+      "source_location": "heading:Orders API|lines:1-15|part:4",
+      "status": "NEEDS_CLARIFICATION",
+      "text": "Request fields: customer_id, sku, quantity.",
+      "type": "PROJECT_FACT"
+    },
+    {
+      "authority": "APPROVED",
+      "conflict": "",
+      "extraction_confidence": "LOW",
+      "item_id": "DOC-002-ITEM-004",
+      "notes": "general extracted statement",
+      "review_decision": "NEEDS_CLARIFICATION",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Success response: 201 with order_id and status.",
+      "source_excerpt_hash": "2958898728983960250",
+      "source_location": "heading:Orders API|lines:1-15|part:5",
+      "status": "NEEDS_CLARIFICATION",
+      "text": "Success response: 201 with order_id and status.",
+      "type": "PROJECT_FACT"
+    },
+    {
+      "authority": "APPROVED",
+      "conflict": "",
+      "extraction_confidence": "LOW",
+      "item_id": "DOC-002-ITEM-005",
+      "notes": "general extracted statement",
+      "review_decision": "NEEDS_CLARIFICATION",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Error response: 400 for invalid quantity and 401 for missing authentication.",
+      "source_excerpt_hash": "906391919103135511",
+      "source_location": "heading:Orders API|lines:1-15|part:6",
+      "status": "NEEDS_CLARIFICATION",
+      "text": "Error response: 400 for invalid quantity and 401 for missing authentication.",
+      "type": "PROJECT_FACT"
+    },
+    {
+      "authority": "APPROVED",
+      "conflict": "",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-002-ITEM-006",
+      "notes": "explicit uncertainty",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Timeout behavior not specified.",
+      "source_excerpt_hash": "8870033160358891465",
+      "source_location": "heading:Orders API|lines:1-15|part:7",
+      "status": "APPROVED",
+      "text": "Timeout behavior not specified.",
+      "type": "UNKNOWN"
+    },
+    {
+      "authority": "APPROVED",
+      "conflict": "",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-002-ITEM-007",
+      "notes": "explicit uncertainty",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Idempotency not specified.",
+      "source_excerpt_hash": "7149372336739377605",
+      "source_location": "heading:Orders API|lines:1-15|part:8",
+      "status": "APPROVED",
+      "text": "Idempotency not specified.",
+      "type": "UNKNOWN"
+    }
+  ],
+  "language": "unknown",
+  "page_count": 0,
+  "parse_status": "PARSED",
+  "parser": "markdown_parser",
+  "parser_version": "1.0",
+  "section_count": 1,
+  "sections": [
+    {
+      "location": "heading:Orders API|lines:1-15",
+      "metadata": {
+        "heading": "Orders API"
+      },
+      "text": "# Orders API\nPOST /orders\nAuthentication: Bearer token required.\nRequest fields: customer_id, sku, quantity.\nSuccess response: 201 with order_id and status.\nError response: 400 for invalid quantity and 401 for missing authentication.\nTimeout behavior not specified.\nIdempotency not specified."
+    }
+  ],
+  "source_hash": "ecf4338f39c0d13fafb622050f1e8a142f1ea2bc5ce96ac1f719d3890009b2dd",
+  "source_type": "MD",
+  "warnings": []
+}

@@ -1,0 +1,22 @@
+{
+  "pack_id": "data-change",
+  "version": "1.0.0",
+  "items": [
+    {
+      "id": "DATA-RULE-001",
+      "title": "Bulk data changes need rollback and partial failure semantics",
+      "type": "DATA_RULE",
+      "class": "DATA_MODEL",
+      "domain": "data-change",
+      "scope": "REUSABLE",
+      "confidence": "SUPPORTED",
+      "status": "ACTIVE",
+      "source_type": "reviewed expert rule",
+      "source_ref": "domain-packs/data-change/README.md#bulk",
+      "version": "1.0.0",
+      "tags": ["bulk", "delete", "rollback", "partial-failure", "audit"],
+      "statement": "Bulk data changes should define transactionality, partial-failure semantics, rollback, history retention, and audit trail.",
+      "revalidation_trigger": "Data model, compliance policy, or operation scope changes."
+    }
+  ]
+}

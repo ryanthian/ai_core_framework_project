@@ -1,0 +1,19 @@
+{
+  "id": "external-api",
+  "name": "External API",
+  "version": "1.0.0",
+  "status": "ACTIVE",
+  "description": "Reusable external API integration guidance for authentication, timeouts, retries, idempotency, rate limits, partial failure, reconciliation, and versioning.",
+  "scope": "reusable",
+  "maintainer": "AI Project Workflow",
+  "created": "2026-08-15",
+  "updated": "2026-08-15",
+  "source_authority": "reviewed expert rule",
+  "license": "internal-workflow",
+  "dependencies": [],
+  "compatible_schema_version": "1.0",
+  "tags": ["api", "timeout", "retry", "idempotency", "rate-limit", "reconciliation"],
+  "activation_conditions": ["Requirement sends data to or receives data from an external service."],
+  "known_limitations": ["Does not replace provider-specific API documentation."],
+  "conflict_policy": "Surface DOMAIN_PROJECT_CONFLICT or DOMAIN_DOMAIN_CONFLICT; provider documentation may override generic guidance."
+}

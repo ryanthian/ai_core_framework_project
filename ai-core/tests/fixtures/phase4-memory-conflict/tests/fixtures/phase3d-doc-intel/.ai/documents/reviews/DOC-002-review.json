@@ -1,0 +1,50 @@
+{
+  "decisions": [
+    {
+      "decision": "APPROVE",
+      "item_id": "DOC-002-ITEM-001",
+      "reason": "safe automatic review scaffold; human/Codex review still authoritative",
+      "source_location": "heading:Orders API|lines:1-15|part:2"
+    },
+    {
+      "decision": "APPROVE",
+      "item_id": "DOC-002-ITEM-002",
+      "reason": "safe automatic review scaffold; human/Codex review still authoritative",
+      "source_location": "heading:Orders API|lines:1-15|part:3"
+    },
+    {
+      "decision": "NEEDS_CLARIFICATION",
+      "item_id": "DOC-002-ITEM-003",
+      "reason": "safe automatic review scaffold; human/Codex review still authoritative",
+      "source_location": "heading:Orders API|lines:1-15|part:4"
+    },
+    {
+      "decision": "NEEDS_CLARIFICATION",
+      "item_id": "DOC-002-ITEM-004",
+      "reason": "safe automatic review scaffold; human/Codex review still authoritative",
+      "source_location": "heading:Orders API|lines:1-15|part:5"
+    },
+    {
+      "decision": "NEEDS_CLARIFICATION",
+      "item_id": "DOC-002-ITEM-005",
+      "reason": "safe automatic review scaffold; human/Codex review still authoritative",
+      "source_location": "heading:Orders API|lines:1-15|part:6"
+    },
+    {
+      "decision": "APPROVE",
+      "item_id": "DOC-002-ITEM-006",
+      "reason": "safe automatic review scaffold; human/Codex review still authoritative",
+      "source_location": "heading:Orders API|lines:1-15|part:7"
+    },
+    {
+      "decision": "APPROVE",
+      "item_id": "DOC-002-ITEM-007",
+      "reason": "safe automatic review scaffold; human/Codex review still authoritative",
+      "source_location": "heading:Orders API|lines:1-15|part:8"
+    }
+  ],
+  "document_id": "DOC-002",
+  "notes": "Review decisions are item-level and preserve conflicts/unknowns.",
+  "reviewer": "DOCUMENT_REVIEWER",
+  "verdict": "PARTIALLY_APPROVED"
+}

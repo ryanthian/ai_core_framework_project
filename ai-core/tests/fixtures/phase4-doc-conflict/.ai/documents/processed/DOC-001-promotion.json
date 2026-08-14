@@ -1,0 +1,15 @@
+{
+  "blocked": [
+    {
+      "item_id": "DOC-001-ITEM-001",
+      "reason": "not approved: CONFLICT"
+    }
+  ],
+  "document_id": "DOC-001",
+  "promoted": [
+    {
+      "item_id": "DOC-001-ITEM-002",
+      "target": ".ai/knowledge/KNOW-DOC-001-this-document-supersedes-the-older-owner-only-rule.md"
+    }
+  ]
+}

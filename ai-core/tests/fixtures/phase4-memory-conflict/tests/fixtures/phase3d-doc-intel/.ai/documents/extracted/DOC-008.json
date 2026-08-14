@@ -1,0 +1,104 @@
+{
+  "document_id": "DOC-008",
+  "items": [
+    {
+      "authority": "APPROVED",
+      "conflict": "",
+      "extraction_confidence": "MEDIUM",
+      "item_id": "DOC-008-ITEM-001",
+      "notes": "structured data source",
+      "sensitive_content_warning": false,
+      "source_excerpt": "owner_id",
+      "source_excerpt_hash": "8303057256576760137",
+      "source_location": "csv:DOC-008.csv|row:2|column:field|part:1",
+      "status": "PROPOSED",
+      "text": "owner_id",
+      "type": "DATA_RULE"
+    },
+    {
+      "authority": "APPROVED",
+      "conflict": "",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-008-ITEM-002",
+      "notes": "explicit requirement keyword",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Must match the authenticated account owner.",
+      "source_excerpt_hash": "1954487867994511400",
+      "source_location": "csv:DOC-008.csv|row:2|column:rule|part:1",
+      "status": "PROPOSED",
+      "text": "Must match the authenticated account owner.",
+      "type": "REQUIREMENT"
+    },
+    {
+      "authority": "APPROVED",
+      "conflict": "",
+      "extraction_confidence": "MEDIUM",
+      "item_id": "DOC-008-ITEM-003",
+      "notes": "structured data source",
+      "sensitive_content_warning": false,
+      "source_excerpt": "export_format",
+      "source_excerpt_hash": "4786265848532417201",
+      "source_location": "csv:DOC-008.csv|row:3|column:field|part:1",
+      "status": "PROPOSED",
+      "text": "export_format",
+      "type": "DATA_RULE"
+    },
+    {
+      "authority": "APPROVED",
+      "conflict": "",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-008-ITEM-004",
+      "notes": "explicit rule keyword",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Only CSV is supported in the disposable fixture.",
+      "source_excerpt_hash": "3021554761932928926",
+      "source_location": "csv:DOC-008.csv|row:3|column:rule|part:1",
+      "status": "PROPOSED",
+      "text": "Only CSV is supported in the disposable fixture.",
+      "type": "BUSINESS_RULE"
+    }
+  ],
+  "language": "unknown",
+  "page_count": 0,
+  "parse_status": "PARSED",
+  "parser": "csv_parser",
+  "parser_version": "1.0",
+  "section_count": 4,
+  "sections": [
+    {
+      "location": "csv:DOC-008.csv|row:2|column:field",
+      "metadata": {
+        "column": "field",
+        "row": 2
+      },
+      "text": "owner_id"
+    },
+    {
+      "location": "csv:DOC-008.csv|row:2|column:rule",
+      "metadata": {
+        "column": "rule",
+        "row": 2
+      },
+      "text": "Must match the authenticated account owner."
+    },
+    {
+      "location": "csv:DOC-008.csv|row:3|column:field",
+      "metadata": {
+        "column": "field",
+        "row": 3
+      },
+      "text": "export_format"
+    },
+    {
+      "location": "csv:DOC-008.csv|row:3|column:rule",
+      "metadata": {
+        "column": "rule",
+        "row": 3
+      },
+      "text": "Only CSV is supported in the disposable fixture."
+    }
+  ],
+  "source_hash": "9dffef35491aba093f6adcdd15162c4e0e7d16519f17fb8ae45c49db089609d0",
+  "source_type": "CSV",
+  "warnings": []
+}

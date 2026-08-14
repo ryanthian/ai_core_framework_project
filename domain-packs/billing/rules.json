@@ -1,0 +1,70 @@
+{
+  "pack_id": "billing",
+  "version": "1.0.0",
+  "items": [
+    {
+      "id": "BILL-GLOSS-001",
+      "title": "Bill and payment are distinct concepts",
+      "type": "GLOSSARY",
+      "class": "GLOSSARY",
+      "domain": "billing",
+      "scope": "REUSABLE",
+      "confidence": "SUPPORTED",
+      "status": "ACTIVE",
+      "source_type": "reviewed expert rule",
+      "source_ref": "domain-packs/billing/README.md#glossary",
+      "version": "1.0.0",
+      "tags": ["bill", "payment", "statement", "billing"],
+      "statement": "A bill/invoice records an amount due; a payment records value received against one or more obligations.",
+      "revalidation_trigger": "Project billing terminology or accounting policy differs."
+    },
+    {
+      "id": "BILL-RULE-001",
+      "title": "Historical billing records need traceability",
+      "type": "BUSINESS_RULE",
+      "class": "BUSINESS_RULE",
+      "domain": "billing",
+      "scope": "REUSABLE",
+      "confidence": "SUPPORTED",
+      "status": "ACTIVE",
+      "source_type": "reviewed expert rule",
+      "source_ref": "domain-packs/billing/README.md#history",
+      "version": "1.0.0",
+      "tags": ["historical", "statement", "payment-history", "audit", "reconciliation"],
+      "statement": "Historical account statements and payment history should preserve source period, adjustments, backdating, reconciliation status, and audit trail.",
+      "revalidation_trigger": "Billing period, adjustment, or audit policy changes."
+    },
+    {
+      "id": "BILL-TEST-001",
+      "title": "Billing test pattern",
+      "type": "TEST_PATTERN",
+      "class": "REUSABLE_PATTERN",
+      "domain": "billing",
+      "scope": "REUSABLE",
+      "confidence": "SUPPORTED",
+      "status": "ACTIVE",
+      "source_type": "reviewed expert rule",
+      "source_ref": "domain-packs/billing/README.md#tests",
+      "version": "1.0.0",
+      "tags": ["partial-payment", "adjustment", "arrears", "reconciliation", "test"],
+      "statement": "Billing tests should include bill creation, partial payment, adjustment, arrears, backdating, historical statement view, and reconciliation checks.",
+      "revalidation_trigger": "Billing lifecycle or adjustment rules change."
+    },
+    {
+      "id": "BILL-DOC-001",
+      "title": "Billing document extraction terms",
+      "type": "DOCUMENT_EXTRACTION_HINT",
+      "class": "REUSABLE_PATTERN",
+      "domain": "billing",
+      "scope": "REUSABLE",
+      "confidence": "SUPPORTED",
+      "status": "ACTIVE",
+      "source_type": "reviewed expert rule",
+      "source_ref": "domain-packs/billing/README.md#document-hints",
+      "version": "1.0.0",
+      "tags": ["document", "account", "bill", "payment", "adjustment", "arrears", "meter", "billing-cycle", "reconciliation"],
+      "statement": "Billing document analysis should treat account, bill, payment, adjustment, arrears, meter, billing cycle, and reconciliation terms as extraction hints, not final classification.",
+      "revalidation_trigger": "Billing terminology or document template changes."
+    }
+  ]
+}

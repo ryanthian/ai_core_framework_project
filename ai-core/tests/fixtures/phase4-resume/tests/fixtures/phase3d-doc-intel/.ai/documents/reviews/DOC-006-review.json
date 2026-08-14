@@ -1,0 +1,14 @@
+{
+  "decisions": [
+    {
+      "decision": "REJECT",
+      "item_id": "DOC-006-ITEM-001",
+      "reason": "safe automatic review scaffold; human/Codex review still authoritative",
+      "source_location": "line:1|part:1"
+    }
+  ],
+  "document_id": "DOC-006",
+  "notes": "Review decisions are item-level and preserve conflicts/unknowns.",
+  "reviewer": "DOCUMENT_REVIEWER",
+  "verdict": "PARTIALLY_APPROVED"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "billing",
+  "name": "Billing",
+  "version": "1.0.0",
+  "status": "ACTIVE",
+  "description": "Reusable billing guidance for bill/payment distinction, billing lifecycle, adjustments, arrears, historical records, reconciliation, audit, backdating, rollback, and tests.",
+  "scope": "reusable",
+  "maintainer": "AI Project Workflow",
+  "created": "2026-08-15",
+  "updated": "2026-08-15",
+  "source_authority": "reviewed expert rule",
+  "license": "internal-workflow",
+  "dependencies": ["financial-calculation", "access-control"],
+  "compatible_schema_version": "1.0",
+  "tags": ["billing", "payment", "statement", "adjustment", "arrears", "reconciliation"],
+  "activation_conditions": ["Requirement touches bills, payments, adjustments, account statements, arrears, billing periods, or reconciliation."],
+  "known_limitations": ["Generic billing guidance only; not organization-specific billing policy."],
+  "conflict_policy": "Surface conflict; authoritative project billing policy controls."
+}

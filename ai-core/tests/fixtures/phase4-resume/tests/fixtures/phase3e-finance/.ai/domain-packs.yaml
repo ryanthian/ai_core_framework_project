@@ -1,0 +1,4 @@
+active:
+  - pack: financial-calculation
+    version: 1.0.0
+    activated_at: 2026-08-14

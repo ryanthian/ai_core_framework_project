@@ -1,0 +1,29 @@
+{
+  "artifact_refs": {},
+  "blocked_role": "IMPLEMENTER",
+  "completed_roles": [],
+  "current_role": "REQUIREMENT_ANALYST",
+  "gate_status": {
+    "A": "NOT_STARTED",
+    "A0": "NOT_STARTED",
+    "C": "NOT_STARTED",
+    "D": "NOT_STARTED"
+  },
+  "human_approval": {},
+  "loopbacks": [],
+  "max_role_retries": 0,
+  "metadata": {
+    "duration": "",
+    "estimated_effort": "",
+    "model": "",
+    "role_attempts": {}
+  },
+  "overall_status": "BLOCKED",
+  "profile": "STANDARD",
+  "project": "phase3c-standard-run",
+  "requirement_id": "REQ-507",
+  "requirement_ref": ".ai/requirements/REQ-507-retry-limit.md",
+  "role_attempts": {},
+  "run_id": "RUN-REQ-507",
+  "started": "2026-08-14T16:55:29Z"
+}

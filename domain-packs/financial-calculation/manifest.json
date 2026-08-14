@@ -1,0 +1,19 @@
+{
+  "id": "financial-calculation",
+  "name": "Financial Calculation",
+  "version": "1.0.0",
+  "status": "ACTIVE",
+  "description": "Reusable guidance for currency, rounding, precision, negative values, reconciliation, and calculation traceability.",
+  "scope": "reusable",
+  "maintainer": "AI Project Workflow",
+  "created": "2026-08-15",
+  "updated": "2026-08-15",
+  "source_authority": "reviewed expert rule",
+  "license": "internal-workflow",
+  "dependencies": [],
+  "compatible_schema_version": "1.0",
+  "tags": ["finance", "currency", "rounding", "precision", "reconciliation"],
+  "activation_conditions": ["Requirement performs monetary or financial calculations."],
+  "known_limitations": ["Does not encode jurisdiction-specific tax law."],
+  "conflict_policy": "Surface conflict; authoritative finance/accounting policy controls."
+}

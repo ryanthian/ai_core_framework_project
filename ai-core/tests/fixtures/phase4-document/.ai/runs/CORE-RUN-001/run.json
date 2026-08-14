@@ -1,0 +1,80 @@
+{
+  "artifact_refs": {
+    "DOMAIN-CORE-RUN-001": ".ai/context/DOMAIN-CONTEXT-CORE-RUN-001.md",
+    "HANDOFF-CORE-RUN-001": ".ai/handoffs/HANDOFF-CORE-RUN-001.md",
+    "IMPL-CORE-RUN-001": ".ai/context/IMPLEMENTATION-SUMMARY-CORE-RUN-001.md",
+    "INTEL-DOC-001": ".ai/documents/reviews/DOC-001-intelligence.md",
+    "KNOW-CORE-RUN-001": ".ai/context/KNOWLEDGE-CAPTURE-CORE-RUN-001.md",
+    "MANIFEST-DOC-001": ".ai/documents/manifests/DOC-001.json",
+    "PLAN-CORE-RUN-001": ".ai/plans/PLAN-CORE-RUN-001.md",
+    "PROMOTE-DOC-001": ".ai/documents/processed/DOC-001-promotion.json",
+    "REQ-ANALYSIS-REQ-DOC-001": ".ai/context/REQUIREMENT-ANALYSIS-CORE-RUN-001.md",
+    "REQ-REQ-DOC-001": ".ai/requirements/REQ-DOC-001-the-system-must-add-account-export.md",
+    "REVIEW-CORE-RUN-001": ".ai/verification/REVIEW-REPORT-CORE-RUN-001.md",
+    "REVIEW-DOC-001": ".ai/documents/reviews/DOC-001-review.json",
+    "SKILL-CORE-RUN-001": ".ai/context/SKILL-SELECTION-CORE-RUN-001.md",
+    "TEST-CORE-RUN-001": ".ai/verification/TEST-EVIDENCE-CORE-RUN-001.md",
+    "VERIFY-CORE-RUN-001": ".ai/verification/VERIFICATION-REPORT-CORE-RUN-001.md"
+  },
+  "blocked_reason": "",
+  "completed_stages": [
+    "INGEST",
+    "DOCUMENT_ANALYSIS",
+    "REQUIREMENT_ANALYSIS",
+    "MEMORY_RETRIEVAL",
+    "DOMAIN_RETRIEVAL",
+    "BLIND_SPOT",
+    "GATE_A0",
+    "SKILL_SELECTION",
+    "PLANNING",
+    "GATE_A",
+    "IMPLEMENTATION",
+    "TESTING",
+    "REVIEW",
+    "VERIFICATION",
+    "GATE_C",
+    "MEMORY_CURATION",
+    "HANDOFF",
+    "GATE_D",
+    "COMPLETE"
+  ],
+  "current_role": "",
+  "current_stage": "COMPLETE",
+  "document_id": "DOC-001",
+  "domain_refs": [],
+  "errors": [],
+  "gate_status": {
+    "A": "PASSED",
+    "A0": "PASSED",
+    "C": "PASSED",
+    "D": "PASSED"
+  },
+  "human_actions": [],
+  "human_approval": {},
+  "input_ref": "source-docs/account-export.md",
+  "input_type": "SOURCE_DOCUMENT",
+  "memory_refs": [
+    ".ai/context/MEMORY-BRIEF-CORE-RUN-001.md"
+  ],
+  "metadata": {
+    "duration": "",
+    "estimated_effort": "",
+    "model": "",
+    "role_attempts": {}
+  },
+  "profile": "STANDARD",
+  "project_id": "ai-project-template",
+  "requirement_id": "REQ-DOC-001",
+  "result": "PASS",
+  "retry_counts": {},
+  "run_id": "CORE-RUN-001",
+  "schema_version": "2",
+  "skill_refs": [
+    "codex-engineering-workflow",
+    "codex-skill-selector"
+  ],
+  "skipped_stages": [],
+  "started_at": "2026-08-14T17:53:01Z",
+  "status": "COMPLETED",
+  "updated_at": "2026-08-14T17:53:02Z"
+}

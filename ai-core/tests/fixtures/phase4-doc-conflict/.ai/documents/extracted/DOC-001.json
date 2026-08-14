@@ -1,0 +1,53 @@
+{
+  "document_id": "DOC-001",
+  "items": [
+    {
+      "authority": "AUTHORITATIVE",
+      "conflict": "KNOW-501",
+      "extraction_confidence": "LOW",
+      "item_id": "DOC-001-ITEM-001",
+      "notes": "general extracted statement",
+      "review_decision": "CONFLICT",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Owner and delegated finance officer may view statement.",
+      "source_excerpt_hash": "7228946395156875581",
+      "source_location": "heading:Statement Access Specification v2|lines:1-5|part:2",
+      "status": "CONFLICT",
+      "text": "Owner and delegated finance officer may view statement.",
+      "type": "PROJECT_FACT"
+    },
+    {
+      "authority": "AUTHORITATIVE",
+      "conflict": "",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-001-ITEM-002",
+      "notes": "explicit rule keyword",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "This document supersedes the older owner-only rule.",
+      "source_excerpt_hash": "5137605420366107551",
+      "source_location": "heading:Statement Access Specification v2|lines:1-5|part:3",
+      "status": "APPROVED",
+      "text": "This document supersedes the older owner-only rule.",
+      "type": "BUSINESS_RULE"
+    }
+  ],
+  "language": "unknown",
+  "page_count": 0,
+  "parse_status": "PARSED",
+  "parser": "markdown_parser",
+  "parser_version": "1.0",
+  "section_count": 1,
+  "sections": [
+    {
+      "location": "heading:Statement Access Specification v2|lines:1-5",
+      "metadata": {
+        "heading": "Statement Access Specification v2"
+      },
+      "text": "# Statement Access Specification v2\nOwner and delegated finance officer may view statement.\nThis document supersedes the older owner-only rule."
+    }
+  ],
+  "source_hash": "8f716fe0ff7bd308ee9800d6a1afb2073e3c0989931269694dfb027f443b41f5",
+  "source_type": "MD",
+  "warnings": []
+}

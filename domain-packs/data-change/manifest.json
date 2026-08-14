@@ -1,0 +1,19 @@
+{
+  "id": "data-change",
+  "name": "Data Change",
+  "version": "1.0.0",
+  "status": "ACTIVE",
+  "description": "Reusable data mutation guidance for create/update/delete, migrations, bulk operations, history, rollback, transactions, and audit.",
+  "scope": "reusable",
+  "maintainer": "AI Project Workflow",
+  "created": "2026-08-15",
+  "updated": "2026-08-15",
+  "source_authority": "reviewed expert rule",
+  "license": "internal-workflow",
+  "dependencies": [],
+  "compatible_schema_version": "1.0",
+  "tags": ["data", "delete", "bulk", "migration", "rollback", "audit"],
+  "activation_conditions": ["Requirement creates, updates, deletes, migrates, or bulk-mutates records."],
+  "known_limitations": ["Generic guidance; project data model controls final behavior."],
+  "conflict_policy": "Surface conflict; authoritative project retention/compliance policy takes precedence."
+}

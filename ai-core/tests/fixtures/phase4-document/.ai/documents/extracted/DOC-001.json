@@ -1,0 +1,83 @@
+{
+  "document_id": "DOC-001",
+  "items": [
+    {
+      "authority": "AUTHORITATIVE",
+      "conflict": "",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-001-ITEM-001",
+      "notes": "explicit requirement keyword",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "The system must add account export.",
+      "source_excerpt_hash": "4310835238420940908",
+      "source_location": "heading:Account Export Specification|lines:1-9|part:2",
+      "status": "APPROVED",
+      "text": "The system must add account export.",
+      "type": "REQUIREMENT"
+    },
+    {
+      "authority": "AUTHORITATIVE",
+      "conflict": "",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-001-ITEM-002",
+      "notes": "explicit rule keyword",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Only approved users may export their own accounts.",
+      "source_excerpt_hash": "3458336957253408659",
+      "source_location": "heading:Account Export Specification|lines:1-9|part:3",
+      "status": "APPROVED",
+      "text": "Only approved users may export their own accounts.",
+      "type": "BUSINESS_RULE"
+    },
+    {
+      "authority": "AUTHORITATIVE",
+      "conflict": "",
+      "extraction_confidence": "MEDIUM",
+      "item_id": "DOC-001-ITEM-003",
+      "notes": "acceptance keyword",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Acceptance: exporting accounts returns JSON records with id, owner, and balance.",
+      "source_excerpt_hash": "2428840314916337843",
+      "source_location": "heading:Account Export Specification|lines:1-9|part:4",
+      "status": "APPROVED",
+      "text": "Acceptance: exporting accounts returns JSON records with id, owner, and balance.",
+      "type": "ACCEPTANCE_CRITERION"
+    },
+    {
+      "authority": "AUTHORITATIVE",
+      "conflict": "",
+      "extraction_confidence": "HIGH",
+      "item_id": "DOC-001-ITEM-004",
+      "notes": "explicit uncertainty",
+      "review_decision": "APPROVE",
+      "sensitive_content_warning": false,
+      "source_excerpt": "Unknown: long-running export timeout behavior is not specified.",
+      "source_excerpt_hash": "894289322313810329",
+      "source_location": "heading:Account Export Specification|lines:1-9|part:5",
+      "status": "APPROVED",
+      "text": "Unknown: long-running export timeout behavior is not specified.",
+      "type": "UNKNOWN"
+    }
+  ],
+  "language": "unknown",
+  "page_count": 0,
+  "parse_status": "PARSED",
+  "parser": "markdown_parser",
+  "parser_version": "1.0",
+  "section_count": 1,
+  "sections": [
+    {
+      "location": "heading:Account Export Specification|lines:1-9",
+      "metadata": {
+        "heading": "Account Export Specification"
+      },
+      "text": "# Account Export Specification\nThe system must add account export.\nOnly approved users may export their own accounts.\nAcceptance: exporting accounts returns JSON records with id, owner, and balance.\nUnknown: long-running export timeout behavior is not specified."
+    }
+  ],
+  "source_hash": "be5cab3ba6e6b7ddf221df5ecdf7632e98c7f00bc84d574b0f5eb021dbaf3736",
+  "source_type": "MD",
+  "warnings": []
+}

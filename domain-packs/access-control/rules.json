@@ -1,0 +1,38 @@
+{
+  "pack_id": "access-control",
+  "version": "1.0.0",
+  "items": [
+    {
+      "id": "AC-RULE-001",
+      "title": "User-specific records require identity and ownership checks",
+      "type": "SECURITY_RULE",
+      "class": "SECURITY_RULE",
+      "domain": "access-control",
+      "scope": "REUSABLE",
+      "confidence": "SUPPORTED",
+      "status": "ACTIVE",
+      "source_type": "reviewed expert rule",
+      "source_ref": "domain-packs/access-control/README.md#identity-ownership",
+      "version": "1.0.0",
+      "tags": ["identity", "ownership", "authorization", "statements", "records"],
+      "statement": "Any feature exposing user-specific records should evaluate identity, ownership, privilege, tenant boundary, and auditability.",
+      "revalidation_trigger": "Permission model, tenant model, or data classification changes."
+    },
+    {
+      "id": "AC-BS-001",
+      "title": "Role boundary and audit blind spot",
+      "type": "BLIND_SPOT_PATTERN",
+      "class": "SECURITY_RULE",
+      "domain": "access-control",
+      "scope": "REUSABLE",
+      "confidence": "SUPPORTED",
+      "status": "ACTIVE",
+      "source_type": "reviewed expert rule",
+      "source_ref": "domain-packs/access-control/README.md#blind-spots",
+      "version": "1.0.0",
+      "tags": ["role", "audit", "privilege", "support", "staff"],
+      "statement": "When staff or support roles access customer records, ask who may access which records, why, with what audit trail, and what masking applies.",
+      "revalidation_trigger": "Role policy or audit requirements change."
+    }
+  ]
+}

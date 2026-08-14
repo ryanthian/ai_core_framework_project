@@ -1,0 +1,13 @@
+{
+  "active_domain_packs": ".ai/domain-packs.yaml",
+  "ai_root": ".ai",
+  "current_runs": [],
+  "initialized_at": "",
+  "project_id": "ai-project-template",
+  "project_name": "AI Project Template",
+  "project_root": ".",
+  "repository_root": ".",
+  "schema_version": "2",
+  "skills_root": "../../codex-skills",
+  "status": "ACTIVE"
+}

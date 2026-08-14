@@ -1,0 +1,7 @@
+active:
+  - pack: data-change
+    version: 1.0.0
+    activated_at: 2026-08-14
+  - pack: test-domain-conflict
+    version: 1.0.0
+    activated_at: 2026-08-14

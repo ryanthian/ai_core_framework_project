@@ -1,0 +1,19 @@
+{
+  "id": "test-domain-conflict",
+  "name": "Test Domain Conflict",
+  "version": "1.0.0",
+  "status": "EXPERIMENTAL",
+  "description": "Disposable pack used only to verify DOMAIN_DOMAIN_CONFLICT behavior.",
+  "scope": "test",
+  "maintainer": "AI Project Workflow",
+  "created": "2026-08-15",
+  "updated": "2026-08-15",
+  "source_authority": "reviewed test rule",
+  "license": "internal-workflow",
+  "dependencies": [],
+  "compatible_schema_version": "1.0",
+  "tags": ["test", "delete", "history"],
+  "activation_conditions": ["Phase 3E conflict tests only."],
+  "known_limitations": ["Not for real projects."],
+  "conflict_policy": "Surface DOMAIN_DOMAIN_CONFLICT."
+}

@@ -1,0 +1,5 @@
+{"event": "RUN_CREATED", "input_ref": "source-docs/statement-access-v2.md", "input_type": "SOURCE_DOCUMENT", "profile": "DEEP", "time": "2026-08-14T17:53:55Z"}
+{"event": "INPUT_ROUTED", "input_type": "SOURCE_DOCUMENT", "time": "2026-08-14T17:53:55Z"}
+{"document_id": "DOC-001", "duplicate": false, "event": "DOCUMENT_INGESTED", "time": "2026-08-14T17:53:56Z"}
+{"document_id": "DOC-001", "event": "DOCUMENT_EXTRACTED", "time": "2026-08-14T17:53:56Z"}
+{"event": "HUMAN_ACTION_CREATED", "reason": "DOCUMENT_MEMORY_CONFLICT detected from source document.", "task_id": "HUMAN-001", "time": "2026-08-14T17:53:56Z"}

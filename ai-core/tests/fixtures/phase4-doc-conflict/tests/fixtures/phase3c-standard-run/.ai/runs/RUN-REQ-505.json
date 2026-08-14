@@ -1,0 +1,47 @@
+{
+  "artifact_refs": {
+    "BLIND_SPOT_REVIEWER": ".ai/context/BLIND-SPOT-REQ-505.md",
+    "MEMORY_RETRIEVER": ".ai/context/MEMORY-BRIEF-REQ-505.md",
+    "PLANNER": ".ai/plans/PLAN-REQ-505-v1.md",
+    "REQUIREMENT_ANALYST": ".ai/context/REQ-ANALYSIS-REQ-505-v1.md",
+    "SKILL_SELECTOR": ".ai/context/SKILL-SELECTION-REQ-505.md"
+  },
+  "blocked_role": "",
+  "completed_roles": [
+    "REQUIREMENT_ANALYST",
+    "MEMORY_RETRIEVER",
+    "BLIND_SPOT_REVIEWER",
+    "SKILL_SELECTOR",
+    "PLANNER"
+  ],
+  "current_role": "IMPLEMENTER",
+  "gate_status": {
+    "A": "NOT_STARTED",
+    "A0": "PASSED",
+    "C": "NOT_STARTED",
+    "D": "NOT_STARTED"
+  },
+  "human_approval": {},
+  "loopbacks": [],
+  "max_role_retries": 3,
+  "metadata": {
+    "duration": "",
+    "estimated_effort": "",
+    "model": "",
+    "role_attempts": {}
+  },
+  "overall_status": "RUNNING",
+  "profile": "STANDARD",
+  "project": "phase3c-standard-run",
+  "requirement_id": "REQ-505",
+  "requirement_ref": ".ai/requirements/REQ-505-resume-demo.md",
+  "role_attempts": {
+    "BLIND_SPOT_REVIEWER": 1,
+    "MEMORY_RETRIEVER": 1,
+    "PLANNER": 1,
+    "REQUIREMENT_ANALYST": 1,
+    "SKILL_SELECTOR": 1
+  },
+  "run_id": "RUN-REQ-505",
+  "started": "2026-08-14T16:52:27Z"
+}

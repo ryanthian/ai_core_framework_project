@@ -1,0 +1,18 @@
+{
+  "analyst_status": "COMPLETE",
+  "artifacts": {
+    "extracted": ".ai/documents/extracted/DOC-008.json",
+    "intelligence_report": ".ai/documents/reviews/DOC-008-intelligence.md",
+    "manifest": ".ai/documents/manifests/DOC-008.json"
+  },
+  "current_stage": "ANALYZED",
+  "document_id": "DOC-008",
+  "errors": [],
+  "parser_status": "PARSED",
+  "promotion_status": "NOT_STARTED",
+  "review_status": "NOT_STARTED",
+  "status": "RUNNING",
+  "timestamps": {
+    "ingested_at": "2026-08-14T17:17:18Z"
+  }
+}

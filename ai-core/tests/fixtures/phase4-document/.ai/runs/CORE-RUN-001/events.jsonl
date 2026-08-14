@@ -1,0 +1,13 @@
+{"event": "RUN_CREATED", "input_ref": "source-docs/account-export.md", "input_type": "SOURCE_DOCUMENT", "profile": "STANDARD", "time": "2026-08-14T17:53:01Z"}
+{"event": "INPUT_ROUTED", "input_type": "SOURCE_DOCUMENT", "time": "2026-08-14T17:53:01Z"}
+{"document_id": "DOC-001", "duplicate": false, "event": "DOCUMENT_INGESTED", "time": "2026-08-14T17:53:01Z"}
+{"document_id": "DOC-001", "event": "DOCUMENT_EXTRACTED", "time": "2026-08-14T17:53:01Z"}
+{"artifact": ".ai/context/MEMORY-BRIEF-CORE-RUN-001.md", "event": "MEMORY_RETRIEVED", "time": "2026-08-14T17:53:01Z"}
+{"critical_open": 0, "event": "BLIND_SPOT_COMPLETED", "high_open": 0, "time": "2026-08-14T17:53:02Z", "verdict": "READY_FOR_PLAN"}
+{"event": "GATE_PASSED", "gate": "A0", "time": "2026-08-14T17:53:02Z"}
+{"event": "RUN_STARTED", "time": "2026-08-14T17:53:02Z"}
+{"event": "GATE_PASSED", "gate": "A", "time": "2026-08-14T17:53:02Z"}
+{"artifact": ".ai/verification/VERIFICATION-REPORT-CORE-RUN-001.md", "event": "VERIFICATION_PASSED", "time": "2026-08-14T17:53:02Z"}
+{"event": "GATE_PASSED", "gate": "C", "time": "2026-08-14T17:53:02Z"}
+{"event": "GATE_PASSED", "gate": "D", "time": "2026-08-14T17:53:02Z"}
+{"event": "RUN_COMPLETED", "time": "2026-08-14T17:53:02Z"}

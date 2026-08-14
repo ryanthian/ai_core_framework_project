@@ -1,0 +1,36 @@
+{
+  "document_id": "DOC-006",
+  "items": [
+    {
+      "authority": "WORKING_DRAFT",
+      "conflict": "",
+      "extraction_confidence": "LOW",
+      "item_id": "DOC-006-ITEM-001",
+      "notes": "general extracted statement",
+      "review_decision": "REJECT",
+      "sensitive_content_warning": true,
+      "source_excerpt": "The deployment note says api_key=[REDACTED] should be rotated immediately.",
+      "source_excerpt_hash": "741990481464060059",
+      "source_location": "line:1|part:1",
+      "status": "REJECTED",
+      "text": "The deployment note says api_key=[REDACTED] should be rotated immediately.",
+      "type": "PROJECT_FACT"
+    }
+  ],
+  "language": "unknown",
+  "page_count": 0,
+  "parse_status": "PARSED",
+  "parser": "text_parser",
+  "parser_version": "1.0",
+  "section_count": 1,
+  "sections": [
+    {
+      "location": "line:1",
+      "metadata": {},
+      "text": "The deployment note says api_key=sk_test_1234567890abcdef should be rotated immediately."
+    }
+  ],
+  "source_hash": "6136af1d0984c0882aa60e356a76605935fcb78e78f58c6ec846ce90188f7e0c",
+  "source_type": "TXT",
+  "warnings": []
+}

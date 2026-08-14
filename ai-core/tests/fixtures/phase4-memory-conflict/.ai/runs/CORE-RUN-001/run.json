@@ -1,0 +1,70 @@
+{
+  "artifact_refs": {
+    "AGENT-CORE-RUN-001": ".ai/runs/RUN-REQ-413.json",
+    "DOMAIN-CORE-RUN-001": ".ai/context/DOMAIN-CONTEXT-CORE-RUN-001.md",
+    "REQ-ANALYSIS-REQ-413": ".ai/context/REQUIREMENT-ANALYSIS-CORE-RUN-001.md",
+    "REQ-REQ-413": ".ai/requirements/REQ-413-export-order.md"
+  },
+  "blocked_reason": "CRITICAL Blind Spot blocks planning.",
+  "completed_stages": [
+    "REQUIREMENT_ANALYSIS",
+    "MEMORY_RETRIEVAL",
+    "DOMAIN_RETRIEVAL",
+    "BLIND_SPOT",
+    "GATE_A0"
+  ],
+  "current_role": "",
+  "current_stage": "GATE_A0",
+  "document_id": "",
+  "domain_refs": [],
+  "errors": [
+    {
+      "code": "HUMAN_APPROVAL_REQUIRED",
+      "message": "CRITICAL Blind Spot blocks planning.",
+      "recommended_action": "Clarify or approve risk explicitly; AI-Core will not simulate approval.",
+      "recoverable": true,
+      "severity": "CRITICAL",
+      "stage": "GATE_A0"
+    }
+  ],
+  "gate_status": {
+    "A": "NOT_STARTED",
+    "A0": "BLOCKED",
+    "C": "NOT_STARTED",
+    "D": "NOT_STARTED"
+  },
+  "human_actions": [
+    ".ai/human-actions/HUMAN-001.json"
+  ],
+  "human_approval": {
+    "reason": "CRITICAL Blind Spot blocks planning.",
+    "required": true,
+    "task_id": "HUMAN-001"
+  },
+  "input_ref": ".ai/requirements/REQ-413-export-order.md",
+  "input_type": "STRUCTURED_REQUIREMENT",
+  "memory_refs": [
+    ".ai/context/MEMORY-BRIEF-CORE-RUN-001.md"
+  ],
+  "metadata": {
+    "duration": "",
+    "estimated_effort": "",
+    "model": "",
+    "role_attempts": {}
+  },
+  "profile": "STANDARD",
+  "project_id": "ai-project-template",
+  "requirement_id": "REQ-413",
+  "result": "",
+  "retry_counts": {},
+  "run_id": "CORE-RUN-001",
+  "schema_version": "2",
+  "skill_refs": [],
+  "skipped_stages": [
+    "INGEST",
+    "DOCUMENT_ANALYSIS"
+  ],
+  "started_at": "2026-08-14T17:55:19Z",
+  "status": "AWAITING_HUMAN",
+  "updated_at": "2026-08-14T17:55:19Z"
+}
