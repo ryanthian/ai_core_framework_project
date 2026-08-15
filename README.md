@@ -29,6 +29,20 @@ Expected:
 SUMMARY pass=30 fail=0
 ```
 
+## CLI Installation
+
+```bash
+pip install -e .
+ai-core version
+```
+
+Daily entry point:
+
+```bash
+ai-core status
+ai-core next
+```
+
 ## Scope
 
 This repository stores the framework itself. It does not include production application code.

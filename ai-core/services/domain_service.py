@@ -1,10 +1,12 @@
 from __future__ import annotations
 
 import sys
+import os
 from pathlib import Path
 
 
 def _load_domainlib(project_root: Path):
+    os.environ.setdefault("AI_CORE_FRAMEWORK_ROOT", str(Path(__file__).resolve().parents[2]))
     scripts = project_root / "scripts"
     if str(scripts) not in sys.path:
         sys.path.insert(0, str(scripts))

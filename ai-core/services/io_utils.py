@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -17,4 +18,6 @@ def write_json(path: Path, data: dict) -> None:
 
 def run_script(project_root: Path, script: str, args: list[str]) -> subprocess.CompletedProcess:
     cmd = [sys.executable, str(project_root / "scripts" / script), *args]
-    return subprocess.run(cmd, cwd=str(project_root), text=True, capture_output=True)
+    env = os.environ.copy()
+    env.setdefault("AI_CORE_FRAMEWORK_ROOT", str(Path(__file__).resolve().parents[2]))
+    return subprocess.run(cmd, cwd=str(project_root), text=True, capture_output=True, env=env)

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 from datetime import datetime
 from pathlib import Path
@@ -39,6 +40,9 @@ def project_root(path: str) -> Path:
 
 
 def workspace_root(project: Path) -> Path:
+    env_root = os.environ.get("AI_CORE_FRAMEWORK_ROOT", "")
+    if env_root and (Path(env_root) / "domain-packs").is_dir():
+        return Path(env_root).resolve()
     cur = project.resolve()
     for candidate in [cur, *cur.parents]:
         if (candidate / "domain-packs").is_dir():
